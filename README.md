@@ -39,3 +39,31 @@ GIT_USER=<Your GitHub username> npm run deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Scripts
+
+Inside the directory, you can run several commands:
+
+```sh
+npm start
+```
+
+Starts the development server.
+
+```sh
+npm run build
+```
+
+Bundles your website into static files for production.
+
+```sh
+npm run serve
+```
+
+Serves the built website locally.
+
+```sh
+npm deploy
+```
+
+Publishes the website to GitHub pages.
