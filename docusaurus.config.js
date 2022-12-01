@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: process.env.GITHUB_URL || 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: process.env.GITHUB_URL || 'https://github.com/facebook/docusaurus',
               },
             ],
           },
