@@ -29,6 +29,7 @@ jobs:
           BASE_URL: /${{ github.event.repository.name }}/
           ORGANIZATION_NAME: ${{ github.repository_owner }}
           PROJECT_NAME: ${{ github.event.repository.name }}
+          GITHUB_URL: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
